@@ -1,0 +1,22 @@
+.toast-custom {
+    background-color: #fff;
+    border-color: #e5e5e5;
+    color: #262626 !important;
+}
+
+.toast-custom .toast-title {
+    font-size: 16px;
+}
+
+.toast-custom .toast-message {
+    font-size: 14px;
+}
+
+.toast-custom .toast-close-button {
+    color: #262626;
+}
+
+.toast-custom .toast-close-button:focus,
+.toast-custom .toast-close-button:hover {
+    color: #000;
+}
