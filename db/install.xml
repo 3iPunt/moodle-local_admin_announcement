@@ -12,7 +12,7 @@
                 <FIELD NAME="type" TYPE="char" LENGTH="255" NOTNULL="true" SEQUENCE="false" COMMENT=""/>
                 <FIELD NAME="title" TYPE="text" NOTNULL="false" SEQUENCE="false" COMMENT=""/>
                 <FIELD NAME="message" TYPE="text" NOTNULL="false" SEQUENCE="false" COMMENT=""/>
-                <FIELD NAME="position" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="false" COMMENT=""/>
+                <FIELD NAME="position" TYPE="char" LENGTH="255" NOTNULL="true" SEQUENCE="false" COMMENT=""/>
                 <FIELD NAME="showfromdate" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false" COMMENT=""/>
                 <FIELD NAME="showuntildate" TYPE="int" LENGTH="10" NOTNULL="false" DEFAULT="0" SEQUENCE="false" COMMENT=""/>
                 <FIELD NAME="timemodified" TYPE="int" LENGTH="10" NOTNULL="true" DEFAULT="0" SEQUENCE="false" COMMENT=""/>

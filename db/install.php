@@ -31,6 +31,23 @@
  * @see upgrade_plugins_modules()
  */
 function xmldb_local_admin_announcement_install() {
+    global $DB;
+    // Add default settings values.
+    if (!$DB->get_records('local_admin_announcement')) {
+        $now = time();
+        $DB->insert_record('local_admin_announcement', (object) [
+            'enabled' => 0,
+            'showoncepersession' => 0,
+            'type' => 'warning',
+            'title' => '',
+            'message' => '',
+            'position' => 'toast-top-right',
+            'showfromdate' => null,
+            'showuntildate' => null,
+            'timemodified' => $now,
+            'timecreated' => $now,
+        ]);
+    }
 }
 
 /**

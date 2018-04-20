@@ -45,7 +45,7 @@ class api {
             return false;
         }
 
-        if (!$settings->enabled) {
+        if (!$settings || !$settings->enabled) {
             return false;
         }
 
