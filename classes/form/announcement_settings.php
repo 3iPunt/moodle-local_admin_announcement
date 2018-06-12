@@ -65,6 +65,9 @@ class announcement_settings extends moodleform {
             'error' => get_string('setting_type_label_error', 'local_admin_announcement'),
             'custom' => get_string('setting_type_label_custom', 'local_admin_announcement'),
         ];
+
+        asort($options);
+
         $mform->addElement('select', 'type', $namestr, $options);
         $mform->setDefault('type', $this->_customdata['type']);
         $mform->setType('type', PARAM_ALPHA);
