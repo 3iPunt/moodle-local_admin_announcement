@@ -28,8 +28,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'local_admin_announcement';
-$plugin->version = 2018041702;
-$plugin->release = '0.2';
+$plugin->version = 2018062601;
+$plugin->release = '0.3';
 $plugin->requires = 2017051500;
 $plugin->maturity = MATURITY_ALPHA;
 $plugin->cron = 0;

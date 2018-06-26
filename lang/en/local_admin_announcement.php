@@ -29,6 +29,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Admin announcement';
 $string['pluginadministration'] = 'Announcement settings';
+$string['privacy:metadata'] = 'The plugin Admin announcement does not store any personal data';
 
 $string['setting_enabled'] = 'Enable announcement';
 $string['setting_enabled_label'] = 'Enabled';

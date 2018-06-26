@@ -29,6 +29,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Anuncios del administrador';
 $string['pluginadministration'] = 'Parámetros del anuncio';
+$string['privacy:metadata'] = 'El plugin Anuncios del administrador no almacena datos personales';
 
 $string['setting_enabled'] = 'Habilitar anuncio';
 $string['setting_enabled_label'] = 'Habilitado';
